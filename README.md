@@ -7,9 +7,9 @@ First create a `Gemfile`
 ```
 source 'https://rubygems.org'
 
-gem 'iridium', :github => 'radiumsoftware/iridium'
-gem 'hydrogen', :github => 'radiumsoftware/hydrogen'
-gem 'rake-pipeline', :github => 'livingsocial/rake-pipeline'
+gem 'iridium', :git => 'git://github.com/radiumsoftware/iridium'
+gem 'hydrogen', :git => 'git://github.com/radiumsoftware/hydrogen'
+gem 'rake-pipeline', :git => 'git://github.com/livingsocial/rake-pipeline'
 ```
 
 Now bootstrap:
